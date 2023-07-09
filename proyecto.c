@@ -30,7 +30,7 @@ int main() {//inicialiazamos las variables
         printf("3.Reiniciar el ordenador:\n");
         scanf("%d", &option);
 
-        switch (option) {
+        switch (option) {//obtenemos 4 opciones para que el usuario sea capaz de escoger 
             case 1:
                 printf("Ha seleccionado  optimizar del ordenador, el costo es de $45.\n");
                 
