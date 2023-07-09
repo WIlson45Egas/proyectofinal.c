@@ -11,16 +11,16 @@ int main() {//inicialiazamos las variables
    //Pedimos obtener los datos personales del individuo
     printf("Ingrese su nombre completo:");
     fgets(nombre, MAX, stdin);
-
+    getchar();
     printf("Ingrese su numero de cedula:\n");
     scanf("%f",&cedula);
-
+    getchar();
     printf("Ingrese el sector donde vive:\n");
     scanf("%d",&sector);
-
+     getchar();
     printf("Describa el problema que tiene:\n");
     scanf("%d",&problema);
-    
+     getchar();
     while (1) 
     {//usamos la opcion while para crear un menu de 4 opciones
     
